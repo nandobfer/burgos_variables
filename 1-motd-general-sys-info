@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "GENERAL SYSTEM INFORMATION"
+/usr/bin/screenfetch
+echo
+echo
+echo "CURRENT WEATHER AT THE LOCATION"
+# Show weather information. Change the city name to fit your location
+ansiweather -l curitiba

@@ -1,0 +1,4 @@
+echo "local address"
+hostname -I | awk '{print $1}'
+echo "hamachi adress"
+hostname -I | awk '{print $4}'
